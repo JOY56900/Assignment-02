@@ -51,7 +51,7 @@ ul{
 }
 
 .main-section{
-    background-image: url(./assets/bg.png);
+    background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@ nav .button{
 }
 
 /* marquee style */
-.marq01 {
+.marq {
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 20px 0;
@@ -164,6 +164,7 @@ nav .button{
     color: var(--white);
     background: #f0a800a0;
 }
+
 /* curriculum style */
 .curriculum-container{
     margin: 80px auto;
@@ -245,7 +246,7 @@ nav .button{
 
 /* stories style  */
 .stories{
-    background-image: url(./assets/bg.png), linear-gradient(180deg, hwb(0 100% 0% / 0.3) 0%, hsla(38, 99%, 50%, 0.3) 100%);
+    background-image: url(../assets/bg.png), linear-gradient(180deg, hwb(0 100% 0% / 0.3) 0%, hsla(38, 99%, 50%, 0.3) 100%);
 }
 
 .card-container{
@@ -769,4 +770,3 @@ footer .div3 .flax{
         margin: 0 30px;
     }
 }
-
